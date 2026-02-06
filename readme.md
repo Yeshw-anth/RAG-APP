@@ -77,20 +77,22 @@ streamlit run app.py
 
 
 ## 📂 Project Structure
+
 .
-├── app.py           # Streamlit frontend
-├── server.py        # FastAPI backend
-├── llm.py           # LLM abstraction (Ollama, local, Gemini)
-├── rag.py           # FAISS-based retrieval
-├── ingest.py        # Build embeddings/index (runs automatically if needed)
-├── prompts.py       # Prompt builder for RAG + LLM
+├── app.py              # Streamlit frontend
+├── server.py           # FastAPI backend
+├── llm.py              # LLM abstraction (Ollama, local, Gemini)
+├── rag.py              # FAISS-based retrieval
+├── ingest.py           # Build embeddings/index (runs automatically if needed)
+├── prompts.py          # Prompt builder for RAG + LLM
 ├── data/
 │   └── fare_policy.txt
-├── index/           # FAISS index + serialized docs
-├── models/          # Local LLaMA models (GGUF)
-├── config.py        # Default configuration
+├── index/              # FAISS index + serialized docs
+├── models/             # Local LLaMA models (GGUF)
+├── config.py           # Default configuration
 ├── requirements.txt
 └── README.md
+
 
 
 ## 🎯 How It Works
