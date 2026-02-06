@@ -77,7 +77,7 @@ streamlit run app.py
 
 
 ## 📂 Project Structure
-
+```
 .
 ├── app.py              # Streamlit frontend
 ├── server.py           # FastAPI backend
@@ -92,7 +92,7 @@ streamlit run app.py
 ├── config.py           # Default configuration
 ├── requirements.txt
 └── README.md
-
+```
 
 
 ## 🎯 How It Works
